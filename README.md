@@ -62,19 +62,14 @@ $$
 
 ### a. Newton法：
 
-$$
-\theta^{(t+1)}
-=
-\theta^{(t)}
+$$\theta^{(t+1)}=\theta^{(t)}
 -H(\theta^{(t)})^{-1}
 J(\theta^{(t)})
 $$
 
 ### b. Fisher Scoring法：
 
-$$
-\theta^{(t+1)}
-=
+$$\theta^{(t+1)}=
 \theta^{(t)}
 +I(\theta^{(t)})^{-1}
 J(\theta^{(t)})
